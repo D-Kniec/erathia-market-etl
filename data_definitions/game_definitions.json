@@ -1,0 +1,386 @@
+{
+  "factions": {
+    "Castle": {
+      "units": [
+        {"name": "Pikeman", "tier": 1, "cost": 6},
+        {"name": "Halberdier", "tier": 1, "cost": 8},
+        {"name": "Archer", "tier": 2, "cost": 10},
+        {"name": "Marksman", "tier": 2, "cost": 15},
+        {"name": "Griffin", "tier": 3, "cost": 20},
+        {"name": "Royal Griffin", "tier": 3, "cost": 24},
+        {"name": "Swordsman", "tier": 4, "cost": 30},
+        {"name": "Crusader", "tier": 4, "cost": 40},
+        {"name": "Monk", "tier": 5, "cost": 40},
+        {"name": "Zealot", "tier": 5, "cost": 45},
+        {"name": "Cavalier", "tier": 6, "cost": 100},
+        {"name": "Champion", "tier": 6, "cost": 120},
+        {"name": "Angel", "tier": 7, "cost": 300},
+        {"name": "Archangel", "tier": 7, "cost": 500}
+      ],
+      "heroes": [
+        {"name": "Orrin", "cost": 750},
+        {"name": "Valeska", "cost": 750},
+        {"name": "Edric", "cost": 750},
+        {"name": "Sylvia", "cost": 750},
+        {"name": "Lord Haart", "cost": 750},
+        {"name": "Sorsha", "cost": 750},
+        {"name": "Christian", "cost": 750},
+        {"name": "Adela", "cost": 750},
+        {"name": "Cuthbert", "cost": 750},
+        {"name": "Adelaide", "cost": 750},
+        {"name": "Ingham", "cost": 750},
+        {"name": "Rion", "cost": 750},
+        {"name": "Loynis", "cost": 750},
+        {"name": "Caitlin", "cost": 750}
+      ]
+    },
+    "Rampart": {
+      "units": [
+        {"name": "Centaur", "tier": 1, "cost": 7},
+        {"name": "Centaur Captain", "tier": 1, "cost": 9},
+        {"name": "Dwarf", "tier": 2, "cost": 12},
+        {"name": "Battle Dwarf", "tier": 2, "cost": 15},
+        {"name": "Wood Elf", "tier": 3, "cost": 20},
+        {"name": "Grand Elf", "tier": 3, "cost": 23},
+        {"name": "Pegasus", "tier": 4, "cost": 35},
+        {"name": "Silver Pegasus", "tier": 4, "cost": 38},
+        {"name": "Dendroid Guard", "tier": 5, "cost": 50},
+        {"name": "Dendroid Soldier", "tier": 5, "cost": 65},
+        {"name": "Unicorn", "tier": 6, "cost": 110},
+        {"name": "War Unicorn", "tier": 6, "cost": 120},
+        {"name": "Green Dragon", "tier": 7, "cost": 350},
+        {"name": "Gold Dragon", "tier": 7, "cost": 600}
+      ],
+      "heroes": [
+        {"name": "Mephala", "cost": 750},
+        {"name": "Ufretin", "cost": 750},
+        {"name": "Jenova", "cost": 750},
+        {"name": "Ryland", "cost": 750},
+        {"name": "Thorgrim", "cost": 750},
+        {"name": "Ivor", "cost": 750},
+        {"name": "Clancy", "cost": 750},
+        {"name": "Kyrre", "cost": 750},
+        {"name": "Coronis", "cost": 750},
+        {"name": "Uland", "cost": 750},
+        {"name": "Elleshar", "cost": 750},
+        {"name": "Gem", "cost": 750},
+        {"name": "Malcom", "cost": 750},
+        {"name": "Melodia", "cost": 750}
+      ]
+    },
+    "Tower": {
+      "units": [
+        {"name": "Gremlin", "tier": 1, "cost": 4},
+        {"name": "Master Gremlin", "tier": 1, "cost": 5},
+        {"name": "Gargoyle", "tier": 2, "cost": 13},
+        {"name": "Obsidian Gargoyle", "tier": 2, "cost": 16},
+        {"name": "Stone Golem", "tier": 3, "cost": 25},
+        {"name": "Iron Golem", "tier": 3, "cost": 30},
+        {"name": "Mage", "tier": 4, "cost": 40},
+        {"name": "Arch Mage", "tier": 4, "cost": 45},
+        {"name": "Genie", "tier": 5, "cost": 60},
+        {"name": "Master Genie", "tier": 5, "cost": 65},
+        {"name": "Naga", "tier": 6, "cost": 120},
+        {"name": "Naga Queen", "tier": 6, "cost": 160},
+        {"name": "Giant", "tier": 7, "cost": 500},
+        {"name": "Titan", "tier": 7, "cost": 800}
+      ],
+      "heroes": [
+        {"name": "Piquedram", "cost": 750},
+        {"name": "Thane", "cost": 750},
+        {"name": "Josephine", "cost": 750},
+        {"name": "Neela", "cost": 750},
+        {"name": "Torosar", "cost": 750},
+        {"name": "Fafner", "cost": 750},
+        {"name": "Rissa", "cost": 750},
+        {"name": "Iona", "cost": 750},
+        {"name": "Astral", "cost": 750},
+        {"name": "Halen", "cost": 750},
+        {"name": "Serena", "cost": 750},
+        {"name": "Daremyth", "cost": 750},
+        {"name": "Theodorus", "cost": 750},
+        {"name": "Solmyr", "cost": 750}
+      ]
+    },
+    "Inferno": {
+      "units": [
+        {"name": "Imp", "tier": 1, "cost": 5},
+        {"name": "Familiar", "tier": 1, "cost": 6},
+        {"name": "Gog", "tier": 2, "cost": 12},
+        {"name": "Magog", "tier": 2, "cost": 14},
+        {"name": "Hell Hound", "tier": 3, "cost": 22},
+        {"name": "Cerberus", "tier": 3, "cost": 25},
+        {"name": "Demon", "tier": 4, "cost": 30},
+        {"name": "Horned Demon", "tier": 4, "cost": 33},
+        {"name": "Pit Fiend", "tier": 5, "cost": 50},
+        {"name": "Pit Lord", "tier": 5, "cost": 70},
+        {"name": "Efreeti", "tier": 6, "cost": 100},
+        {"name": "Efreet Sultan", "tier": 6, "cost": 110},
+        {"name": "Devil", "tier": 7, "cost": 300},
+        {"name": "Arch Devil", "tier": 7, "cost": 450}
+      ],
+      "heroes": [
+        {"name": "Fiona", "cost": 750},
+        {"name": "Rashka", "cost": 750},
+        {"name": "Marius", "cost": 750},
+        {"name": "Ignatius", "cost": 750},
+        {"name": "Nymus", "cost": 750},
+        {"name": "Ayden", "cost": 750},
+        {"name": "Xyron", "cost": 750},
+        {"name": "Axsis", "cost": 750},
+        {"name": "Calh", "cost": 750},
+        {"name": "Octavia", "cost": 750},
+        {"name": "Pyre", "cost": 750},
+        {"name": "Zydar", "cost": 750},
+        {"name": "Xeron", "cost": 750}
+      ]
+    },
+    "Necropolis": {
+      "units": [
+        {"name": "Skeleton", "tier": 1, "cost": 5},
+        {"name": "Skeleton Warrior", "tier": 1, "cost": 6},
+        {"name": "Walking Dead", "tier": 2, "cost": 10},
+        {"name": "Zombie", "tier": 2, "cost": 13},
+        {"name": "Wight", "tier": 3, "cost": 18},
+        {"name": "Wraith", "tier": 3, "cost": 22},
+        {"name": "Vampire", "tier": 4, "cost": 36},
+        {"name": "Vampire Lord", "tier": 4, "cost": 46},
+        {"name": "Lich", "tier": 5, "cost": 55},
+        {"name": "Power Lich", "tier": 5, "cost": 60},
+        {"name": "Black Knight", "tier": 6, "cost": 120},
+        {"name": "Dread Knight", "tier": 6, "cost": 150},
+        {"name": "Bone Dragon", "tier": 7, "cost": 280},
+        {"name": "Ghost Dragon", "tier": 7, "cost": 400}
+      ],
+      "heroes": [
+        {"name": "Straker", "cost": 750},
+        {"name": "Vokial", "cost": 750},
+        {"name": "Moandor", "cost": 750},
+        {"name": "Charna", "cost": 750},
+        {"name": "Tamika", "cost": 750},
+        {"name": "Isra", "cost": 750},
+        {"name": "Clavius", "cost": 750},
+        {"name": "Galthran", "cost": 750},
+        {"name": "Septienna", "cost": 750},
+        {"name": "Aislinn", "cost": 750},
+        {"name": "Thant", "cost": 750},
+        {"name": "Xsi", "cost": 750},
+        {"name": "Vidomina", "cost": 750},
+        {"name": "Nagash", "cost": 750},
+        {"name": "Sandro", "cost": 750}
+      ]
+    },
+    "Dungeon": {
+      "units": [
+        {"name": "Troglodyte", "tier": 1, "cost": 6},
+        {"name": "Infernal Troglodyte", "tier": 1, "cost": 7},
+        {"name": "Harpy", "tier": 2, "cost": 14},
+        {"name": "Harpy Hag", "tier": 2, "cost": 17},
+        {"name": "Beholder", "tier": 3, "cost": 24},
+        {"name": "Evil Eye", "tier": 3, "cost": 26},
+        {"name": "Medusa", "tier": 4, "cost": 35},
+        {"name": "Medusa Queen", "tier": 4, "cost": 40},
+        {"name": "Minotaur", "tier": 5, "cost": 55},
+        {"name": "Minotaur King", "tier": 5, "cost": 60},
+        {"name": "Manticore", "tier": 6, "cost": 90},
+        {"name": "Scorpicore", "tier": 6, "cost": 100},
+        {"name": "Red Dragon", "tier": 7, "cost": 400},
+        {"name": "Black Dragon", "tier": 7, "cost": 700}
+      ],
+      "heroes": [
+        {"name": "Shakti", "cost": 750},
+        {"name": "Lorelei", "cost": 750},
+        {"name": "Arlach", "cost": 750},
+        {"name": "Dace", "cost": 750},
+        {"name": "Ajit", "cost": 750},
+        {"name": "Damacon", "cost": 750},
+        {"name": "Gunnar", "cost": 750},
+        {"name": "Synca", "cost": 750},
+        {"name": "Alamar", "cost": 750},
+        {"name": "Jaegar", "cost": 750},
+        {"name": "Malekith", "cost": 750},
+        {"name": "Jeddite", "cost": 750},
+        {"name": "Geon", "cost": 750},
+        {"name": "Deemer", "cost": 750},
+        {"name": "Sephinroth", "cost": 750}
+      ]
+    },
+    "Stronghold": {
+      "units": [
+        {"name": "Goblin", "tier": 1, "cost": 4},
+        {"name": "Hobgoblin", "tier": 1, "cost": 5},
+        {"name": "Wolf Rider", "tier": 2, "cost": 11},
+        {"name": "Wolf Raider", "tier": 2, "cost": 14},
+        {"name": "Orc", "tier": 3, "cost": 19},
+        {"name": "Orc Chieftain", "tier": 3, "cost": 21},
+        {"name": "Ogre", "tier": 4, "cost": 32},
+        {"name": "Ogre Mage", "tier": 4, "cost": 45},
+        {"name": "Roc", "tier": 5, "cost": 60},
+        {"name": "Thunderbird", "tier": 5, "cost": 70},
+        {"name": "Cyclops", "tier": 6, "cost": 80},
+        {"name": "Cyclops King", "tier": 6, "cost": 100},
+        {"name": "Behemoth", "tier": 7, "cost": 300},
+        {"name": "Ancient Behemoth", "tier": 7, "cost": 450}
+      ],
+      "heroes": [
+        {"name": "Yog", "cost": 750},
+        {"name": "Gurnisson", "cost": 750},
+        {"name": "Jabarkas", "cost": 750},
+        {"name": "Crag Hack", "cost": 750},
+        {"name": "Gretchin", "cost": 750},
+        {"name": "Krellion", "cost": 750},
+        {"name": "Shiva", "cost": 750},
+        {"name": "Tyraxor", "cost": 750},
+        {"name": "Gundula", "cost": 750},
+        {"name": "Oris", "cost": 750},
+        {"name": "Saurug", "cost": 750},
+        {"name": "Dessa", "cost": 750},
+        {"name": "Terek", "cost": 750},
+        {"name": "Zubin", "cost": 750},
+        {"name": "Gird", "cost": 750}
+      ]
+    },
+    "Fortress": {
+      "units": [
+        {"name": "Gnoll", "tier": 1, "cost": 5},
+        {"name": "Gnoll Marauder", "tier": 1, "cost": 7},
+        {"name": "Lizardman", "tier": 2, "cost": 13},
+        {"name": "Lizard Warrior", "tier": 2, "cost": 15},
+        {"name": "Serpent Fly", "tier": 3, "cost": 20},
+        {"name": "Dragon Fly", "tier": 3, "cost": 22},
+        {"name": "Basilisk", "tier": 4, "cost": 33},
+        {"name": "Greater Basilisk", "tier": 4, "cost": 40},
+        {"name": "Gorgon", "tier": 5, "cost": 60},
+        {"name": "Mighty Gorgon", "tier": 5, "cost": 65},
+        {"name": "Wyvern", "tier": 6, "cost": 100},
+        {"name": "Wyvern Monarch", "tier": 6, "cost": 110},
+        {"name": "Hydra", "tier": 7, "cost": 320},
+        {"name": "Chaos Hydra", "tier": 7, "cost": 420}
+      ],
+      "heroes": [
+        {"name": "Tazar", "cost": 750},
+        {"name": "Alkin", "cost": 750},
+        {"name": "Bron", "cost": 750},
+        {"name": "Drakon", "cost": 750},
+        {"name": "Wystan", "cost": 750},
+        {"name": "Tiva", "cost": 750},
+        {"name": "Korbac", "cost": 750},
+        {"name": "Gerwulf", "cost": 750},
+        {"name": "Broghild", "cost": 750},
+        {"name": "Mirlanda", "cost": 750},
+        {"name": "Styg", "cost": 750},
+        {"name": "Andra", "cost": 750},
+        {"name": "Verdish", "cost": 750},
+        {"name": "Voy", "cost": 750},
+        {"name": "Rosic", "cost": 750}
+      ]
+    },
+    "Conflux": {
+      "units": [
+        {"name": "Pixie", "tier": 1, "cost": 3},
+        {"name": "Sprite", "tier": 1, "cost": 4},
+        {"name": "Air Elemental", "tier": 2, "cost": 25},
+        {"name": "Storm Elemental", "tier": 2, "cost": 28},
+        {"name": "Water Elemental", "tier": 3, "cost": 30},
+        {"name": "Ice Elemental", "tier": 3, "cost": 33},
+        {"name": "Fire Elemental", "tier": 4, "cost": 35},
+        {"name": "Energy Elemental", "tier": 4, "cost": 38},
+        {"name": "Earth Elemental", "tier": 5, "cost": 40},
+        {"name": "Magma Elemental", "tier": 5, "cost": 45},
+        {"name": "Psychic Elemental", "tier": 6, "cost": 80},
+        {"name": "Magic Elemental", "tier": 6, "cost": 85},
+        {"name": "Firebird", "tier": 7, "cost": 250},
+        {"name": "Phoenix", "tier": 7, "cost": 350}
+      ],
+      "heroes": [
+        {"name": "Pasis", "cost": 750},
+        {"name": "Thunar", "cost": 750},
+        {"name": "Ignissa", "cost": 750},
+        {"name": "Lacus", "cost": 750},
+        {"name": "Kalt", "cost": 750},
+        {"name": "Monere", "cost": 750},
+        {"name": "Erdamon", "cost": 750},
+        {"name": "Fiur", "cost": 750},
+        {"name": "Ciele", "cost": 750},
+        {"name": "Gelare", "cost": 750},
+        {"name": "Grindan", "cost": 750},
+        {"name": "Inteus", "cost": 750},
+        {"name": "Luna", "cost": 750}
+      ]
+    }
+  },
+  "products": {
+    "Resources": {
+      "Base": [
+        {"name": "Gold", "cost": 1}
+      ],
+      "Low": [
+        {"name": "Wood", "cost": 100},
+        {"name": "Ore", "cost": 100}
+      ],
+      "Mid": [
+        {"name": "Mercury", "cost": 500},
+        {"name": "Sulfur", "cost": 500},
+        {"name": "Crystal", "cost": 500},
+        {"name": "Gems", "cost": 500}
+      ]
+    },
+    "Artifacts": {
+      "Treasure": [
+        {"name": "Spellbook", "cost": 500},
+        {"name": "Spell Scroll", "cost": 250},
+        {"name": "Spirit of Oppression", "cost": 100},
+        {"name": "Medal of Courage", "cost": 750},
+        {"name": "Purse of Gold", "cost": 500},
+        {"name": "Cart of Ore", "cost": 500},
+        {"name": "Cart of Wood", "cost": 500}
+      ],
+      "Minor": [
+        {"name": "Boots of Speed", "cost": 2000},
+        {"name": "Helm of the Alabaster Unicorn", "cost": 2500},
+        {"name": "Quiet Eye of the Dragon", "cost": 2000},
+        {"name": "Pendant of Courage", "cost": 1500},
+        {"name": "Centaur's Axe", "cost": 1500},
+        {"name": "Blackshard of the Dead Knight", "cost": 1500},
+        {"name": "Shield of the Dwarven Lords", "cost": 2000},
+        {"name": "Breastplate of Petrified Wood", "cost": 2000},
+        {"name": "Ring of Vitality", "cost": 2500},
+        {"name": "Vampire's Cowl", "cost": 3000},
+        {"name": "Boots of Levitation", "cost": 3000}
+      ],
+      "Major": [
+        {"name": "Sword of Judgement", "cost": 5000},
+        {"name": "Armor of the Damned", "cost": 7500},
+        {"name": "Tome of Fire Magic", "cost": 6000},
+        {"name": "Tome of Air Magic", "cost": 6000},
+        {"name": "Tome of Water Magic", "cost": 6000},
+        {"name": "Tome of Earth Magic", "cost": 6000},
+        {"name": "Golden Bow", "cost": 8000},
+        {"name": "Helm of Heavenly Enlightenment", "cost": 7000},
+        {"name": "Pendant of Dispassion", "cost": 4000},
+        {"name": "Ring of the Magi", "cost": 5000},
+        {"name": "Cape of Conjuring", "cost": 6000}
+      ],
+      "Relic": [
+        {"name": "Angel Wings", "cost": 20000},
+        {"name": "Elixir of Life", "cost": 25000},
+        {"name": "Armageddon's Blade", "cost": 30000},
+        {"name": "Grail", "cost": 100000},
+        {"name": "Angelic Alliance", "cost": 50000},
+        {"name": "Power of the Dragon Father", "cost": 50000},
+        {"name": "Titan's Thunder", "cost": 40000},
+        {"name": "Admiral's Hat", "cost": 15000},
+        {"name": "Shackles of War", "cost": 10000},
+        {"name": "Orb of Inhibition", "cost": 25000}
+      ]
+    }
+  },
+  "town_names": {
+    "prefixes": [
+      "Shining", "Dragon", "Ever", "White", "Dark", "Strong", "Iron", "Stone", "Cloud", "River", "Shadow", "Sun", "Ghost", "Dead", "Bleak", "Bright"
+    ],
+    "suffixes": [
+      "Rock", "Fall", "green", "Guard", "Hold", "Fist", "Helm", "Wood", "Peak", "Wind", "Watch", "Rest", "Pass", "Creek", "Spire", "Fort"
+    ]
+  }
+}
