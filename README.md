@@ -43,7 +43,7 @@ This is where the magic happens. I built a stateful **Agent-Based Model (ABM)** 
 
 1.  **Clone the repo:**
     ```bash
-    git clone [https://github.com/YOUR-USERNAME/erathia-market-etl.git](https://github.com/YOUR-USERNAME/erathia-market-etl.git)
+    git clone [https://github.com/D-Kniec/erathia-market-etl.git](https://github.com/D-Kniec/erathia-market-etl.git)
     cd erathia-market-etl
     ```
 
